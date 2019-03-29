@@ -1,0 +1,238 @@
+
+@keyframes anime4{
+
+  /*50%{transform: rotate(10deg); filter: blur(1px);}*/
+  2%{transform: rotate(-3deg); filter: blur(1px);}
+  50%{transform: rotate(5deg); filter: blur(1px);}
+  100%{transform: rotate(0deg); filter: blur(0px);}
+}
+@-webkit-keyframes anime4{
+
+  /*50%{transform: rotate(15deg); filter: blur(1px);}*/
+  2%{transform: rotate(-3deg); filter: blur(1px);}
+  50%{transform: rotate(5deg); filter: blur(1px);}
+  100%{transform: rotate(0deg); filter: blur(0px);}
+}
+@-o-keyframes anime4{
+
+  /*50%{transform: rotate(15deg); filter: blur(1px);}*/
+  2%{transform: rotate(-3deg); filter: blur(1px);}
+  50%{transform: rotate(5deg); filter: blur(1px);}
+  100%{transform: rotate(0deg); filter: blur(0px);}
+}
+
+div#galerie
+{
+  width: 70% ;
+  margin-left: auto ;
+  margin-right: auto ;
+  background: #eed ;
+  border: 1px solid #dcb ;
+  padding: 15px ;
+  /*margin: 15px 30px ;*/
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center ;
+  font: 0.9em Georgia, serif ;
+}
+
+div#galerieFraise
+{
+  width: 70% ;
+  margin-left: auto ;
+  margin-right: auto ;
+  background: #eed ;
+  border: 1px solid #dcb ;
+  padding: 15px ;
+  /*margin: 15px 30px ;*/
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center ;
+  font: 0.9em Georgia, serif ;
+}
+
+div#galerieChocolat
+{
+  width: 70% ;
+  margin-left: auto ;
+  margin-right: auto ;
+  background: #eed ;
+  border: 1px solid #dcb ;
+  padding: 15px ;
+  /*margin: 15px 30px ;*/
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center ;
+  font: 0.9em Georgia, serif ;
+}
+
+div#galerieMyrtille
+{
+  width: 70% ;
+  margin-left: auto ;
+  margin-right: auto ;
+  background: #eed ;
+  border: 1px solid #dcb ;
+  padding: 15px ;
+  /*margin: 15px 30px ;*/
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center ;
+  font: 0.9em Georgia, serif ;
+}
+
+div#galerieVanille
+{
+  width: 70% ;
+  margin-left: auto ;
+  margin-right: auto ;
+  background: #eed ;
+  border: 1px solid #dcb ;
+  padding: 15px ;
+  /*margin: 15px 30px ;*/
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center ;
+  font: 0.9em Georgia, serif ;
+}
+
+div#galerieMariage
+{
+  width: 70% ;
+  margin-left: auto ;
+  margin-right: auto ;
+  background: #eed ;
+  border: 1px solid #dcb ;
+  padding: 15px ;
+  /*margin: 15px 30px ;*/
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center ;
+  font: 0.9em Georgia, serif ;
+}
+
+div#galeriePain
+{
+  width: 70% ;
+  margin-left: auto ;
+  margin-right: auto ;
+  background: #eed ;
+  border: 1px solid #dcb ;
+  padding: 15px ;
+  /*margin: 15px 30px ;*/
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center ;
+  font: 0.9em Georgia, serif ;
+}
+
+div#galerieCroissant
+{
+  width: 70% ;
+  margin-left: auto ;
+  margin-right: auto ;
+  background: #eed ;
+  border: 1px solid #dcb ;
+  padding: 15px ;
+  /*margin: 15px 30px ;*/
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center ;
+  font: 0.9em Georgia, serif ;
+}
+
+ul#galerie_mini
+{
+  margin-left: auto ;
+  margin-right: auto ;
+  padding: 0 ;
+  list-style-type: none ;
+}
+
+ul#galerie_mini li
+{
+  float: left ;
+}
+
+ul#galerie_mini li a img
+{
+  margin: 2px 1px ;
+  border: 1px solid #dcb ;
+}
+
+dl#photo
+{
+  clear: both ;
+  margin: 0 auto ;
+}
+
+dl#photo dt
+{
+  font: italic 2.5em/1.5em Georgia, serif ;
+  color: #dcb ;
+}
+
+dl#photo dd
+{
+  margin: 0 ;
+}
+
+dl#photo img
+{
+  border: 1px solid #dcb ;
+}
+.mini-container{
+  margin-left: 30%;
+}
+
+.mini-containerFraise{
+  margin-left: 15%;
+}
+.mini-containerChocolat{
+  margin-left: 20%;
+}
+.mini-containerMyrtille{
+  margin-left: 20%;
+}
+.mini-containerVanille{
+  margin-left: 20%;
+}
+.mini-containerMariage{
+  margin-left: 5%;
+}
+.mini-containerPain{
+  margin-left: 15%;
+}
+.mini-containerCroissant{
+  margin-left: 15%;
+}
+
+.big-container{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#galerieCroissant{
+  animation: anime4 1s;
+}
+#galerieFraise{
+  animation: anime4 1s;
+}
+#galerieMyrtille{
+  animation: anime4 1s;
+}
+#galerie{
+  animation: anime4 1s;
+}
+#galerieVanille{
+  animation: anime4 1s;
+}
+#galerieMariage{
+  animation: anime4 1s;
+}
+#galerieChocolat{
+  animation: anime4 1s;
+}
+#galeriePain{
+  animation: anime4 1s;
+}

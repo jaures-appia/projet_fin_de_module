@@ -1,0 +1,544 @@
+/*-*--*--*--*--*--*--*--*--*--*--*--*--*-
+##### STYLE DE NAN PATISSERIE #####
+-*--*--*--*--*--*--*--*--*--*--*--*--*-*/
+
+/*##### 
+LES DIFFFERENTES COULEURS DU SITES
+
+maron (700):#5D4037
+maron (500):#795548
+maron (300):#A1887F
+
+orange (700):#F57C00
+orange (500):#FF9800
+orange (300):#FFB74D
+orange (A400):#FF9100
+
+rouge (700):#D32F2F
+rouge (500):#F44336
+rouge (300):#E57373
+rouge (A700):#D50000
+
+vert (700):#388E3C
+vert (500):#4CAF50
+vert (300):#81C784
+vert (A400):#00E676
+
+jaune (700):#FBC02D
+jaune (500):#FFEB3B
+jaune (300):#FFF176
+jaune (A400):#FFEA00
+
+violet (700):#7B1FA2
+violet (500):#9C27B0
+violet (300):#BA68C8
+violet (A400):#D500F9
+
+ #####*/
+
+ /* LES FONTS DU SITE */
+
+
+ @font-face {
+    font-family: 'tabarrashadow';
+    src: url('../fonts/gltf/tabarra-shadow-ffp-webfont.woff2') format('woff2'),
+         url('../fonts/gltf/tabarra-shadow-ffp-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'candalregular';
+    src: url('../fonts/candal/candal-webfont.woff2') format('woff2'),
+         url('../fonts/candal/candal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* FONTS DU SITE */
+
+@keyframes anime1{
+
+	3%{transform: scale(0.5) rotate(-10deg); opacity: 0.7}
+	15%{filter: blur(5px); opacity: 0.5;}
+	50%{transform: scale(0.8) rotate(20deg); opacity: 0.7;}
+	80%{transform: scale(1) rotate(0deg); opacity: 0.9;}
+	100%{filter: blur(0px);}
+}
+@-webkit-keyframes anime1{
+
+	3%{transform: scale(0.5) rotate(-10deg); opacity: 0.7}
+	15%{filter: blur(5px); opacity: 0.5;}
+	50%{transform: scale(0.8) rotate(20deg); opacity: 0.7;}
+	80%{transform: scale(1) rotate(0deg); opacity: 0.9;}
+	100%{filter: blur(0px);}
+}
+@-o-keyframes anime1{
+
+	3%{transform: scale(0.5) rotate(-10deg); opacity: 0.7}
+	15%{filter: blur(5px); opacity: 0.5;}
+	50%{transform: scale(0.8) rotate(20deg); opacity: 0.7;}
+	80%{transform: scale(1) rotate(0deg); opacity: 0.9;}
+	100%{filter: blur(0px);}
+}
+
+
+@keyframes anime2{
+
+	3%{transform: scale(0.5) ; opacity: 0.3}
+	50%{transform: scale(1) ; opacity: 1;}
+	80%{transform: scale(0.7) ; opacity: 0.7;}
+	100%{transform: scale(1) ; opacity: 1;}
+}
+@-webkit-keyframes anime2{
+
+	3%{transform: scale(0.5) ; opacity: 0.3}
+	50%{transform: scale(1) ; opacity: 1;}
+	80%{transform: scale(0.7) ; opacity: 0.7;}
+	100%{transform: scale(1) ; opacity: 1;}
+}
+@-o-keyframes anime2{
+
+	3%{transform: scale(0.5) ; opacity: 0.3}
+	50%{transform: scale(1) ; opacity: 1;}
+	80%{transform: scale(0.7) ; opacity: 0.7;}
+	100%{transform: scale(1) ; opacity: 1;}
+}
+
+
+@keyframes anime3{
+
+	50%{transform: rotate(10deg); filter: blur(1px);}
+	75%{transform: rotate(-3deg); filter: blur(1px);}
+	90%{transform: rotate(5deg); filter: blur(1px);}
+	100%{transform: rotate(0deg); filter: blur(0px);}
+}
+@-webkit-keyframes anime3{
+
+	50%{transform: rotate(15deg); filter: blur(1px);}
+	75%{transform: rotate(-3deg); filter: blur(1px);}
+	90%{transform: rotate(5deg); filter: blur(1px);}
+	100%{transform: rotate(0deg); filter: blur(0px);}
+}
+@-o-keyframes anime3{
+
+	50%{transform: rotate(15deg); filter: blur(1px);}
+	75%{transform: rotate(-3deg); filter: blur(1px);}
+	90%{transform: rotate(5deg); filter: blur(1px);}
+	100%{transform: rotate(0deg); filter: blur(0px);}
+}
+
+
+ /*-*--*--*--*--*--*--*--*--*--*--*--*--*-
+##### PAGE D'ACCEUIL #####
+-*--*--*--*--*--*--*--*--*--*--*--*--*-*/
+*{
+	box-sizing: border-box;
+}
+body{
+	color: black;
+	font-weight: bold;
+	font-family: 'candalregular', sans-serif;
+}
+a{
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/* HEADER */
+.navbar{
+	background-color: #F57C00;
+	margin-bottom: 10%;
+	transition: 0.5s;
+}
+.navbar-chocolat{
+	background-color: #5D4037;
+	margin-bottom: 10%;
+	transition: 0.5s;
+}
+.navbar-fraise{
+	background-color: #D32F2F;
+	margin-bottom: 10%;
+	transition: 0.5s;
+}
+.navbar-myrtille{
+	background-color: #7B1FA2;
+	margin-bottom: 10%;
+	transition: 0.5s;
+}
+.navbar-menthe{
+	background-color: #388E3C;
+	margin-bottom: 10%;
+	transition: 0.5s;
+}
+.navbar-vanille{
+	background-color: #FFF176;
+	margin-bottom: 10%;
+	transition: 0.5s;
+}
+.navbar-mariage{
+	background-color: #ffffff;
+	margin-bottom: 10%;
+	transition: 0.5s;
+}
+
+#navbarNav{
+	margin-left: 5%;
+}
+.navbar-toggler{
+	
+	background-color: orange;
+}
+.navbar-toggler-icon{
+	background-color: black;
+}
+.navbar .navbar-brand{
+	font-weight: ;
+	font-size: 25px; 
+	transition: 1s;
+	font-family: 'tabarrashadow', sans-serif;
+}
+.navbar .navbar-brand:hover{
+	color: #2E3030;
+}
+.navbar #navbarNav .navbar-nav .nav-item .nav-link{
+	font-weight: bold;
+	font-size: 17px; 
+	transition: 0.5s;
+}
+.navbar #navbarNav .navbar-nav .nav-item .nav-link:hover{
+	color: #F57C00;
+	background-color: black;
+	border-radius: 0 8px 0 8px;
+}
+
+/* CAROUSEL */
+
+.caroussel{
+	margin-bottom: 7%;
+	position: relative;
+}
+.img-caroussel{
+	z-index: -1;
+	-webkit-filter: blur(5px);
+/* Firefox */
+-moz-filter: blur(3px);
+/* Opera */
+-o-filter: blur(3px);
+/* Internet Explorer */
+-ms-filter: blur(3px);
+/* Filtre de floutage CSS3 standard */
+filter: blur(3px);
+}
+.carousel-item{
+
+width: 100%;
+height: 700px;
+}
+.mot-caroussel{
+	z-index: 1;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+	width: 450px;
+	height: 200px;
+	/*background-color: #404040;*/
+	padding: 1px;
+
+
+}
+
+.mot-caroussel .btn{
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+}
+.btn{
+	border-radius: 50px;
+	padding: 10px;
+}
+
+/* SECTION 1  && SECTION 2*/
+
+.section1, .section2{
+	border: solid 2px #FFB74D;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: %;
+	margin-bottom: 6%;
+	transition: 1s;
+}
+.section1:hover, .section2:hover{
+	border-color: black;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px #404040;
+}
+.section1 h6, .section2 h6{
+	color: black;
+	font-weight: bold;
+	margin-bottom: 3%
+}
+.grd-pain{
+	width: 800px;
+	height: 400px;
+}
+.pti-pain{
+	width: 500px;
+	height: 200px;
+}
+
+/* SERVICE */
+.service{
+	margin-bottom: 5%;
+	margin-top: 3%;
+	padding: 15px;
+	transition-property: all;
+	transition-duration: 0.7s;
+	transition-delay: 0.5s:
+}
+/*.service:hover{
+	border-top:	solid 2px #FFB74D;
+	border-bottom:	solid 2px #FFB74D;
+}*/
+.service h2{
+	text-align: center;
+	margin-bottom: 5%;
+	transition-property: all;
+	transition-duration: 0.7s;
+	transition-delay: 0.5s:
+}
+.service1, .service2, .service3{
+	border: solid 1px black;
+	margin-bottom: 2px;
+	padding: 5px;
+	height: 100%;
+	transition-property: background-color;
+	transition-duration: 1s;
+	transition-delay: 0.5s:
+}
+
+.div1{
+	margin-bottom: 2px;
+	padding: 5px;
+	background-color: #E57373;	
+	border-radius: 10px;
+	border: none;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-delay: 2s:
+}
+.div2{
+	margin-bottom: 2px;
+	padding: 5px;	
+	background-color: #81C784;
+	border-radius: 10px;
+	border: none;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-delay: 2s:
+}
+.div3{
+	margin-bottom: 2px;
+	padding: 5px;	
+	background-color: #BA68C8;
+	border-radius: 10px;
+	border: none;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-delay: 3s:
+}
+.h2-service{
+	text-align: center;
+	margin-bottom: 5%;
+	color: #FFB74D;
+	transition-property: all;
+	transition-duration: 0.7s;
+	transition-delay: 0.5s: 
+}
+.service1 i{
+	font-size: 35px;
+	margin-left: 40%;
+	margin-bottom: 15px;
+	color: #FFB74D;
+	background-color: black;
+	padding: 10px;
+	border-radius: 30px;
+}
+.service2 i{
+	font-size: 35px;
+	margin-left: 40%;
+	margin-bottom: 15px;
+	color: #FFB74D;
+	background-color: black;
+	padding: 10px;
+	border-radius: 30px;
+}
+.service3 i{
+	font-size: 35px;
+	margin-left: 40%;
+	margin-bottom: 15px;
+	color: #FFB74D;
+	background-color: black;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+	background-color: #F57C00;
+	padding-top: 35px;
+	padding-bottom: 30px;
+}
+.chocolat{
+	background-color: #5D4037;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	transition: 0.5s;
+}
+
+.fraise{
+	background-color: #D32F2F;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	transition: 0.5s;
+}
+
+.myrtille{
+	background-color: #7B1FA2;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	transition: 0.5s;
+}
+
+.menthe{
+	background-color: #388E3C;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	transition: 0.5s;
+}
+
+.vanille{
+	background-color: #FFF176;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	transition: 0.5s;
+}
+
+.mariage{
+	background-color: #fff;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	transition: 0.5s;
+}
+.r-sociaux i{
+	font-size: 30px;
+	color: black;
+	margin: 5px;
+}
+.footer .logo{
+	font-size: 25px; 
+	transition: 1s;
+	font-family: 'tabarrashadow', sans-serif;
+}
+footer .footer .input-group-text{
+	padding: 1px;
+	background-color: #795548;
+}
+footer .footer .input-group-text button{
+	background-color: #A1887F;
+	border-style: none;
+	border-radius: 15px;
+}
+footer .footer .input-group-text button:hover{
+	background-color: black;
+	color: #FFB74D;
+}
+
+
+
+/*-*--*--*--*--*--*--*--*--*--*--*--*--*-
+##### PAGE VITRINE #####
+-*--*--*--*--*--*--*--*--*--*--*--*--*-*/
+
+.img-vitrine{
+	width: 300px;
+	height: 200px;
+	animation: anime2 1.5s;
+}
+.vitrine{
+	margin-top: 13%;
+}
+
+.mt-6{
+	margin-top: 10%;
+}
+.galerie-title{
+	font-family: 'tabarrashadow', sans-serif;
+	text-align: center;
+	margin-top: 5%;
+}
+.galerie-footer{
+	text-align: center;
+	font-size: 35px;
+	margin-right: 3%;
+}
+
+/*-*--*--*--*--*--*--*--*--*--*--*--*--*-
+##### PAGE DE CONTACT #####
+-*--*--*--*--*--*--*--*--*--*--*--*--*-*/
+
+.contact-box{
+	margin-top: 10%;
+    margin-bottom: 7%;
+    border-radius: 10px;
+    background-color: #DBDCDC;
+    padding: 20px 35px 30px 15px;
+    animation: anime3 1.5s;
+}
+.contact-label{
+	 background-color: #FF9800;
+    padding: 2px 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: ;
+    margin-bottom: -20px;
+    border-style: none;
+    border-radius: 3px;
+}
+.contact-label i{
+	color: ;
+}
+.btn-contact{
+	background-color: #FF9800;
+        color: white;
+        font-weight: bold;
+}
+.mot-contact{
+	margin-top: 10%;
+        margin-bottom: 7%;
+}
+.contact-title{
+	text-align: center;
+    text-transform: uppercase;
+}
+.contact-address{
+
+}
+
+
+/*-*--*--*--*--*--*--*--*--*--*--*--*--*-
+##### PAGE DE SERVICE #####
+-*--*--*--*--*--*--*--*--*--*--*--*--*-*/
+
+.img-service{
+	animation: anime1 3s ;
+}
