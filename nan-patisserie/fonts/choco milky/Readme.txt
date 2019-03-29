@@ -1,0 +1,1 @@
+Thanks for using my font.  The font is personal use licence . Please visit my shop https://creativemarket.com/JavaPep  for using commercial use licence. If you have any question, don’t hesitate to contact mee java.indonesian@yahoo.com. Have nice a day ;)
